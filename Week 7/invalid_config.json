@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created_by": "Carsen Hintz",
+    "description": "Daily backup of critical security logs"
+  },
+  "sources": [
+    {
+      "name": "Firewall Logs",
+      "recursive": true,
+      "include_patterns": ["*.log"],
+      "exclude_patterns": ["debug_*"]
+    },
+    {
+      "name": "Authentication Logs",
+      "recursive": false,
+      "include_patterns": ["*.log", "*.txt"],
+      "exclude_patterns": []
+    }
+  ],
+  "destination": {
+    "base_path": "/backup/security",
+    "create_timestamped_folders": true,
+    "retention_days": 30
+  },
+  "options": {
+    "verify_backups": true,
+    "max_file_size_mb": 50
+  }
+}

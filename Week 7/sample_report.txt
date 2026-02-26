@@ -1,0 +1,42 @@
+============================================================
+Backup Plan: Backup of Critical Security Logs
+Mode: DRY-RUN
+Timestamp: 2026-02-26 13:48:05
+============================================================
+
+Source: Firewall Logs
+Source Path: /var/log/firewall
+Destination Path: /backup/security
+Files:
+  - firewall_logs_2026-02-10.log (87.48 MB)
+  - firewall_logs_2026-02-25.log (69.35 MB)
+  - firewall_logs_2026-02-22.log (43.26 MB)
+  - firewall_logs_2026-02-06.log (8.93 MB)
+  - firewall_logs_2026-02-07.log (29.81 MB)
+  - firewall_logs_2026-02-08.log (95.04 MB)
+  - firewall_logs_2026-02-03.log (56.84 MB)
+  - firewall_logs_2026-02-04.log (20.28 MB)
+  - firewall_logs_2026-02-26.log (53.16 MB)
+  - firewall_logs_2026-02-24.log (44.24 MB)
+  - firewall_logs_2026-02-26.log (20.8 MB)
+  - firewall_logs_2026-02-22.log (16.57 MB)
+
+Source: Authentication Logs
+Source Path: /var/log/auth
+Destination Path: /backup/security
+Files:
+  - authentication_logs_2026-02-23.log (86.27 MB)
+  - authentication_logs_2026-02-12.log (15.69 MB)
+  - authentication_logs_2026-02-12.log (55.8 MB)
+  - authentication_logs_2026-02-07.log (79.46 MB)
+  - authentication_logs_2026-02-25.log (57.64 MB)
+  - authentication_logs_2026-02-14.log (48.57 MB)
+  - authentication_logs_2026-02-20.log (25.43 MB)
+  - authentication_logs_2026-01-27.log (62.52 MB)
+  - authentication_logs_2026-02-25.log (89.86 MB)
+
+SUMMARY
+Total Sources: 2
+Total Files: 21
+Total Size (MB): 1067.0
+============================================================
