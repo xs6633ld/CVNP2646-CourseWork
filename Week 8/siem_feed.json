@@ -1,0 +1,80 @@
+{
+    "feed_version": "1.0",
+    "timestamp": "2026-03-06T20:24:55.561781Z",
+    "indicators": [
+        {
+            "indicator": "203.0.113.10",
+            "type": "ipv4",
+            "confidence": 95,
+            "severity": "critical",
+            "sources": [
+                "VendorA",
+                "VendorC",
+                "VendorB"
+            ],
+            "first_seen": "2024-11-15T00:00:00Z"
+        },
+        {
+            "indicator": "bad-domain.com",
+            "type": "domain",
+            "confidence": 90,
+            "severity": "high",
+            "sources": [
+                "VendorA",
+                "VendorC"
+            ],
+            "first_seen": "2024-11-14T00:00:00Z"
+        },
+        {
+            "indicator": "192.0.2.5",
+            "type": "ipv4",
+            "confidence": 93,
+            "severity": "critical",
+            "sources": [
+                "VendorA",
+                "VendorB"
+            ],
+            "first_seen": "2024-11-11T00:00:00Z"
+        },
+        {
+            "indicator": "evil.com",
+            "type": "domain",
+            "confidence": 91,
+            "severity": "critical",
+            "sources": [
+                "VendorB"
+            ],
+            "first_seen": "2024-11-13T00:00:00Z"
+        },
+        {
+            "indicator": "198.51.100.30",
+            "type": "ipv4",
+            "confidence": 89,
+            "severity": "high",
+            "sources": [
+                "VendorB"
+            ],
+            "first_seen": "2024-11-12T00:00:00Z"
+        },
+        {
+            "indicator": "malicious.example",
+            "type": "domain",
+            "confidence": 88,
+            "severity": "high",
+            "sources": [
+                "VendorC"
+            ],
+            "first_seen": "2024-11-16T00:00:00Z"
+        },
+        {
+            "indicator": "203.0.113.55",
+            "type": "ipv4",
+            "confidence": 92,
+            "severity": "critical",
+            "sources": [
+                "VendorC"
+            ],
+            "first_seen": "2024-11-12T00:00:00Z"
+        }
+    ]
+}

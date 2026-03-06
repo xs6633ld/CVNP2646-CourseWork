@@ -1,0 +1,39 @@
+
+================================================================
+THREAT INTELLIGENCE AGGREGATION REPORT
+================================================================
+
+INPUT SUMMARY
+----------------------------------------------------------------
+Feeds processed:         3
+Total indicators loaded: 15
+Valid indicators:        15
+Validation errors:       0
+
+DEDUPLICATION
+----------------------------------------------------------------
+Unique indicators:       11
+Duplicates removed:      4
+
+FILTERING
+----------------------------------------------------------------
+Confidence threshold:    >= 85
+Threat levels:           high, critical
+Indicator types:         ip, domain
+Indicators passing:      7
+
+DISTRIBUTION BY TYPE
+----------------------------------------------------------------
+IP             : 4
+DOMAIN         : 3
+
+DISTRIBUTION BY SEVERITY
+----------------------------------------------------------------
+Critical       : 4
+High           : 3
+
+TOP SOURCES
+----------------------------------------------------------------
+VendorC        : 4
+VendorB        : 4
+VendorA        : 3

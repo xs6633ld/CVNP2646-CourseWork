@@ -1,0 +1,11 @@
+{
+  "source": "VendorA ThreatFeed",
+  "timestamp": "2024-11-20T10:00:00Z",
+  "indicators": [
+    {"id":"VA-1","type":"ip","value":"203.0.113.10","confidence":95,"threat":"critical","first_seen":"2024-11-15"},
+    {"id":"VA-2","type":"domain","value":"bad-domain.com","confidence":90,"threat":"high","first_seen":"2024-11-14"},
+    {"id":"VA-3","type":"ip","value":"198.51.100.22","confidence":70,"threat":"medium","first_seen":"2024-11-10"},
+    {"id":"VA-4","type":"hash","value":"abcd1234","confidence":88,"threat":"high","first_seen":"2024-11-12"},
+    {"id":"VA-5","type":"ip","value":"192.0.2.5","confidence":93,"threat":"critical","first_seen":"2024-11-11"}
+  ]
+}

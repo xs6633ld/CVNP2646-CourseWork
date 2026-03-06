@@ -1,0 +1,11 @@
+{
+  "provider":"VendorC",
+  "created_at":"2024-11-20T10:10:00Z",
+  "threats":[
+    {"threat_id":"VC-1","category":"domain","ioc":"malicious.example","reliability":88,"risk":"high","seen_at":"2024-11-16"},
+    {"threat_id":"VC-2","category":"ip","ioc":"203.0.113.10","reliability":85,"risk":"critical","seen_at":"2024-11-15"},
+    {"threat_id":"VC-3","category":"hash","ioc":"ffff9999","reliability":87,"risk":"high","seen_at":"2024-11-14"},
+    {"threat_id":"VC-4","category":"ip","ioc":"203.0.113.55","reliability":92,"risk":"critical","seen_at":"2024-11-12"},
+    {"threat_id":"VC-5","category":"domain","ioc":"bad-domain.com","reliability":90,"risk":"high","seen_at":"2024-11-11"}
+  ]
+}

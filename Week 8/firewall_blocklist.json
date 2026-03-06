@@ -1,0 +1,73 @@
+{
+    "generated_at": "2026-03-06T20:24:55.561691Z",
+    "total_entries": 7,
+    "blocklist": [
+        {
+            "address": "203.0.113.10",
+            "action": "block",
+            "priority": "critical",
+            "reason": "Threat level: critical, Confidence: 95%",
+            "sources": [
+                "VendorA",
+                "VendorC",
+                "VendorB"
+            ]
+        },
+        {
+            "address": "bad-domain.com",
+            "action": "block",
+            "priority": "high",
+            "reason": "Threat level: high, Confidence: 90%",
+            "sources": [
+                "VendorA",
+                "VendorC"
+            ]
+        },
+        {
+            "address": "192.0.2.5",
+            "action": "block",
+            "priority": "critical",
+            "reason": "Threat level: critical, Confidence: 93%",
+            "sources": [
+                "VendorA",
+                "VendorB"
+            ]
+        },
+        {
+            "address": "evil.com",
+            "action": "block",
+            "priority": "critical",
+            "reason": "Threat level: critical, Confidence: 91%",
+            "sources": [
+                "VendorB"
+            ]
+        },
+        {
+            "address": "198.51.100.30",
+            "action": "block",
+            "priority": "high",
+            "reason": "Threat level: high, Confidence: 89%",
+            "sources": [
+                "VendorB"
+            ]
+        },
+        {
+            "address": "malicious.example",
+            "action": "block",
+            "priority": "high",
+            "reason": "Threat level: high, Confidence: 88%",
+            "sources": [
+                "VendorC"
+            ]
+        },
+        {
+            "address": "203.0.113.55",
+            "action": "block",
+            "priority": "critical",
+            "reason": "Threat level: critical, Confidence: 92%",
+            "sources": [
+                "VendorC"
+            ]
+        }
+    ]
+}
