@@ -1,0 +1,35 @@
+================================================================
+WEEKLY PATCH COMPLIANCE SUMMARY REPORT
+================================================================
+Generated: 2026-03-19 15:15:11.725881
+
+EXECUTIVE SUMMARY
+----------------------------------------------------------------
+Total Systems: 20
+High Risk Systems: 13 (65.0%)
+
+RISK DISTRIBUTION
+----------------------------------------------------------------
+Critical  : 10
+High      : 3
+Medium    : 7
+Low       : 0
+
+TOP 5 HIGH RISK SYSTEMS
+----------------------------------------------------------------
+1. WEB-SRV-001 (Score: 100, critical)
+   696 days | production | internet-facing, pci-scope
+2. WEB-SRV-002 (Score: 100, critical)
+   535 days | production | internet-facing
+3. DB-SRV-001 (Score: 100, critical)
+   609 days | production | pci-scope, hipaa
+4. SEC-SRV-001 (Score: 100, critical)
+   411 days | production | internet-facing
+5. IT-SRV-DC01 (Score: 100, critical)
+   674 days | production | internet-facing, pci-scope
+
+RECOMMENDED ACTIONS
+----------------------------------------------------------------
+• Patch critical systems within 48 hours
+• Patch high-risk systems within 7 days
+• Review patching automation
