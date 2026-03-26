@@ -1,21 +1,21 @@
 {
   "audit_metadata": {
-    "timestamp": "2026-03-26T14:44:22.857516",
+    "timestamp": "2026-03-26T15:07:23.030829",
     "total_users_audited": 10,
     "total_role_assignments": 10,
-    "total_violations": 10,
+    "total_violations": 6,
     "auditor": "Automated IAM Audit System v1.0"
   },
   "violation_summary": {
     "by_severity": {
       "CRITICAL": 3,
       "HIGH": 0,
-      "MEDIUM": 7,
+      "MEDIUM": 3,
       "LOW": 0
     },
     "by_type": {
       "disabled_with_roles": 3,
-      "stale_account": 7
+      "stale_account": 3
     }
   },
   "violations_by_user": {
@@ -70,43 +70,7 @@
         "username": "cadams",
         "violation_type": "stale_account",
         "severity": "MEDIUM",
-        "details": "Last login 482 days ago"
-      }
-    ],
-    "U006": [
-      {
-        "user_id": "U006",
-        "username": "charris",
-        "violation_type": "stale_account",
-        "severity": "MEDIUM",
-        "details": "Last login 483 days ago"
-      }
-    ],
-    "U007": [
-      {
-        "user_id": "U007",
-        "username": "chintz",
-        "violation_type": "stale_account",
-        "severity": "MEDIUM",
-        "details": "Last login 484 days ago"
-      }
-    ],
-    "U009": [
-      {
-        "user_id": "U009",
-        "username": "jsmith",
-        "violation_type": "stale_account",
-        "severity": "MEDIUM",
-        "details": "Last login 484 days ago"
-      }
-    ],
-    "U010": [
-      {
-        "user_id": "U010",
-        "username": "kwhite",
-        "violation_type": "stale_account",
-        "severity": "MEDIUM",
-        "details": "Last login 485 days ago"
+        "details": "Last login 117 days ago"
       }
     ]
   },
@@ -151,35 +115,7 @@
       "username": "cadams",
       "violation_type": "stale_account",
       "severity": "MEDIUM",
-      "details": "Last login 482 days ago"
-    },
-    {
-      "user_id": "U006",
-      "username": "charris",
-      "violation_type": "stale_account",
-      "severity": "MEDIUM",
-      "details": "Last login 483 days ago"
-    },
-    {
-      "user_id": "U007",
-      "username": "chintz",
-      "violation_type": "stale_account",
-      "severity": "MEDIUM",
-      "details": "Last login 484 days ago"
-    },
-    {
-      "user_id": "U009",
-      "username": "jsmith",
-      "violation_type": "stale_account",
-      "severity": "MEDIUM",
-      "details": "Last login 484 days ago"
-    },
-    {
-      "user_id": "U010",
-      "username": "kwhite",
-      "violation_type": "stale_account",
-      "severity": "MEDIUM",
-      "details": "Last login 485 days ago"
+      "details": "Last login 117 days ago"
     }
   ]
 }
