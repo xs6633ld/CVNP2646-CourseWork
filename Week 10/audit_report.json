@@ -1,0 +1,185 @@
+{
+  "audit_metadata": {
+    "timestamp": "2026-03-26T14:44:22.857516",
+    "total_users_audited": 10,
+    "total_role_assignments": 10,
+    "total_violations": 10,
+    "auditor": "Automated IAM Audit System v1.0"
+  },
+  "violation_summary": {
+    "by_severity": {
+      "CRITICAL": 3,
+      "HIGH": 0,
+      "MEDIUM": 7,
+      "LOW": 0
+    },
+    "by_type": {
+      "disabled_with_roles": 3,
+      "stale_account": 7
+    }
+  },
+  "violations_by_user": {
+    "U002": [
+      {
+        "user_id": "U002",
+        "username": "asmith",
+        "violation_type": "disabled_with_roles",
+        "severity": "CRITICAL",
+        "details": "Disabled account has roles: hr_manager"
+      }
+    ],
+    "U005": [
+      {
+        "user_id": "U005",
+        "username": "mjohnson",
+        "violation_type": "disabled_with_roles",
+        "severity": "CRITICAL",
+        "details": "Disabled account has roles: marketing_user"
+      }
+    ],
+    "U008": [
+      {
+        "user_id": "U008",
+        "username": "tlarson",
+        "violation_type": "disabled_with_roles",
+        "severity": "CRITICAL",
+        "details": "Disabled account has roles: it_support"
+      }
+    ],
+    "U001": [
+      {
+        "user_id": "U001",
+        "username": "jdoe",
+        "violation_type": "stale_account",
+        "severity": "MEDIUM",
+        "details": "Last login 483 days ago"
+      }
+    ],
+    "U003": [
+      {
+        "user_id": "U003",
+        "username": "bwilliams",
+        "violation_type": "stale_account",
+        "severity": "MEDIUM",
+        "details": "Last login 482 days ago"
+      }
+    ],
+    "U004": [
+      {
+        "user_id": "U004",
+        "username": "cadams",
+        "violation_type": "stale_account",
+        "severity": "MEDIUM",
+        "details": "Last login 482 days ago"
+      }
+    ],
+    "U006": [
+      {
+        "user_id": "U006",
+        "username": "charris",
+        "violation_type": "stale_account",
+        "severity": "MEDIUM",
+        "details": "Last login 483 days ago"
+      }
+    ],
+    "U007": [
+      {
+        "user_id": "U007",
+        "username": "chintz",
+        "violation_type": "stale_account",
+        "severity": "MEDIUM",
+        "details": "Last login 484 days ago"
+      }
+    ],
+    "U009": [
+      {
+        "user_id": "U009",
+        "username": "jsmith",
+        "violation_type": "stale_account",
+        "severity": "MEDIUM",
+        "details": "Last login 484 days ago"
+      }
+    ],
+    "U010": [
+      {
+        "user_id": "U010",
+        "username": "kwhite",
+        "violation_type": "stale_account",
+        "severity": "MEDIUM",
+        "details": "Last login 485 days ago"
+      }
+    ]
+  },
+  "all_violations": [
+    {
+      "user_id": "U002",
+      "username": "asmith",
+      "violation_type": "disabled_with_roles",
+      "severity": "CRITICAL",
+      "details": "Disabled account has roles: hr_manager"
+    },
+    {
+      "user_id": "U005",
+      "username": "mjohnson",
+      "violation_type": "disabled_with_roles",
+      "severity": "CRITICAL",
+      "details": "Disabled account has roles: marketing_user"
+    },
+    {
+      "user_id": "U008",
+      "username": "tlarson",
+      "violation_type": "disabled_with_roles",
+      "severity": "CRITICAL",
+      "details": "Disabled account has roles: it_support"
+    },
+    {
+      "user_id": "U001",
+      "username": "jdoe",
+      "violation_type": "stale_account",
+      "severity": "MEDIUM",
+      "details": "Last login 483 days ago"
+    },
+    {
+      "user_id": "U003",
+      "username": "bwilliams",
+      "violation_type": "stale_account",
+      "severity": "MEDIUM",
+      "details": "Last login 482 days ago"
+    },
+    {
+      "user_id": "U004",
+      "username": "cadams",
+      "violation_type": "stale_account",
+      "severity": "MEDIUM",
+      "details": "Last login 482 days ago"
+    },
+    {
+      "user_id": "U006",
+      "username": "charris",
+      "violation_type": "stale_account",
+      "severity": "MEDIUM",
+      "details": "Last login 483 days ago"
+    },
+    {
+      "user_id": "U007",
+      "username": "chintz",
+      "violation_type": "stale_account",
+      "severity": "MEDIUM",
+      "details": "Last login 484 days ago"
+    },
+    {
+      "user_id": "U009",
+      "username": "jsmith",
+      "violation_type": "stale_account",
+      "severity": "MEDIUM",
+      "details": "Last login 484 days ago"
+    },
+    {
+      "user_id": "U010",
+      "username": "kwhite",
+      "violation_type": "stale_account",
+      "severity": "MEDIUM",
+      "details": "Last login 485 days ago"
+    }
+  ]
+}

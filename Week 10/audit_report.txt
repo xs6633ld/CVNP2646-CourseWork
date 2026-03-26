@@ -1,0 +1,66 @@
+================================================================================
+USER ACCOUNT & PERMISSIONS AUDIT REPORT
+================================================================================
+Generated: 2026-03-26 14:44:22
+Auditor: Automated IAM Audit System v1.0
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Total Users Audited: 10
+Total Role Assignments: 10
+Total Violations Found: 10
+
+VIOLATIONS BY SEVERITY
+--------------------------------------------------------------------------------
+CRITICAL     [  3] ███
+HIGH         [  0] 
+MEDIUM       [  7] ███████
+LOW          [  0] 
+
+VIOLATIONS BY TYPE
+--------------------------------------------------------------------------------
+stale_account                    7
+disabled_with_roles              3
+
+DETAILED VIOLATIONS
+================================================================================
+
+CRITICAL (3 issues)
+--------------------------------------------------------------------------------
+1. asmith (U002)
+   Type: disabled_with_roles
+   Details: Disabled account has roles: hr_manager
+2. mjohnson (U005)
+   Type: disabled_with_roles
+   Details: Disabled account has roles: marketing_user
+3. tlarson (U008)
+   Type: disabled_with_roles
+   Details: Disabled account has roles: it_support
+
+MEDIUM (7 issues)
+--------------------------------------------------------------------------------
+1. jdoe (U001)
+   Type: stale_account
+   Details: Last login 483 days ago
+2. bwilliams (U003)
+   Type: stale_account
+   Details: Last login 482 days ago
+3. cadams (U004)
+   Type: stale_account
+   Details: Last login 482 days ago
+4. charris (U006)
+   Type: stale_account
+   Details: Last login 483 days ago
+5. chintz (U007)
+   Type: stale_account
+   Details: Last login 484 days ago
+6. jsmith (U009)
+   Type: stale_account
+   Details: Last login 484 days ago
+7. kwhite (U010)
+   Type: stale_account
+   Details: Last login 485 days ago
+
+================================================================================
+END OF REPORT
+================================================================================

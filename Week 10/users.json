@@ -1,0 +1,74 @@
+[
+  {
+    "user_id": "U001",
+    "username": "jdoe",
+    "status": "active",
+    "department": "IT",
+    "last_login": "2024-11-28"
+  },
+  {
+    "user_id": "U002",
+    "username": "asmith",
+    "status": "disabled",
+    "department": "HR",
+    "last_login": "2024-08-15"
+  },
+  {
+    "user_id": "U003",
+    "username": "bwilliams",
+    "status": "active",
+    "department": "Finance",
+    "last_login": "2024-11-29"
+  },
+  {
+    "user_id": "U004",
+    "username": "cadams",
+    "status": "active",
+    "department": "Finance",
+    "last_login": "2024-11-29"
+}, 
+{
+    "user_id": "U005",
+    "username": "mjohnson",
+    "status": "disabled",
+    "department": "Marketing",
+    "last_login": "2024-05-03"
+},
+{
+    "user_id": "U006",
+    "username": "charris",
+    "status": "active",
+    "department": "IT",
+    "last_login": "2024-11-28"
+},
+{
+    "user_id": "U007",
+    "username": "chintz",
+    "status": "active",
+    "department": "Finance",
+    "last_login": "2024-11-27"
+},
+{
+    "user_id": "U008",
+    "username": "tlarson",
+    "status": "disabled",
+    "department": "IT",
+    "last_login": "2024-01-11"
+},
+{
+    "user_id": "U009",
+    "username": "jsmith",
+    "status": "active",
+    "department": "Marketing",
+    "last_login": "2024-11-27"
+},
+{
+    "user_id": "U010",
+    "username": "kwhite",
+    "status": "active",
+    "department": "IT",
+    "last_login": "2024-11-26"
+}
+
+
+]
