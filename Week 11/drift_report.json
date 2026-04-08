@@ -1,26 +1,5 @@
 [
   {
-    "path": "logging.destination",
-    "type": "missing",
-    "baseline_value": "siem",
-    "current_value": null,
-    "severity": "medium"
-  },
-  {
-    "path": "logging.enabled",
-    "type": "changed",
-    "baseline_value": true,
-    "current_value": false,
-    "severity": "high"
-  },
-  {
-    "path": "logging.level",
-    "type": "changed",
-    "baseline_value": "info",
-    "current_value": "debug",
-    "severity": "low"
-  },
-  {
     "path": "rules[0].port",
     "type": "changed",
     "baseline_value": 443,
@@ -47,5 +26,26 @@
       "enabled": true
     },
     "severity": "low"
+  },
+  {
+    "path": "logging.destination",
+    "type": "missing",
+    "baseline_value": "siem",
+    "current_value": null,
+    "severity": "medium"
+  },
+  {
+    "path": "logging.level",
+    "type": "changed",
+    "baseline_value": "info",
+    "current_value": "debug",
+    "severity": "low"
+  },
+  {
+    "path": "logging.enabled",
+    "type": "changed",
+    "baseline_value": true,
+    "current_value": false,
+    "severity": "high"
   }
 ]
