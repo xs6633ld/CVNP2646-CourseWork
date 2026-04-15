@@ -1,0 +1,7 @@
+{
+    "total_packets": 40,
+    "port_scans": [
+        "192.168.1.50"
+    ],
+    "syn_floods": []
+}

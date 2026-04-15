@@ -1,0 +1,50 @@
+2026-04-13 18:43:48,673 - network_monitor - INFO - Network Monitor starting
+2026-04-13 18:43:48,696 - network_monitor - ERROR - Parse error at line 1
+2026-04-13 18:43:48,697 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.10', 'dst_ip': '10.0.0.1', 'src_port': 50000, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,697 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.10', 'dst_ip': '10.0.0.1', 'src_port': 50001, 'dst_port': 443, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,697 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.11', 'dst_ip': '10.0.0.2', 'src_port': 51000, 'dst_port': 22, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,711 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.12', 'dst_ip': '10.0.0.3', 'src_port': 52000, 'dst_port': 53, 'protocol': 'UDP', 'flags': 'NONE'}
+2026-04-13 18:43:48,712 - network_monitor - ERROR - Parse error at line 6
+2026-04-13 18:43:48,712 - network_monitor - ERROR - Parse error at line 7
+2026-04-13 18:43:48,712 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40000, 'dst_port': 1, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,712 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40001, 'dst_port': 2, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,713 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40002, 'dst_port': 3, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,713 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40003, 'dst_port': 4, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,713 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40004, 'dst_port': 5, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,713 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40005, 'dst_port': 6, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,713 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40006, 'dst_port': 7, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,713 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40007, 'dst_port': 8, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,713 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40008, 'dst_port': 9, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,713 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40009, 'dst_port': 10, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,757 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40010, 'dst_port': 11, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,757 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40011, 'dst_port': 12, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,758 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40012, 'dst_port': 13, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,758 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40013, 'dst_port': 14, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,758 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40014, 'dst_port': 15, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,758 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40015, 'dst_port': 16, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,759 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40016, 'dst_port': 17, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,759 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40017, 'dst_port': 18, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,772 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40018, 'dst_port': 19, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,773 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40019, 'dst_port': 20, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,774 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40020, 'dst_port': 21, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,781 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40021, 'dst_port': 22, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,781 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40022, 'dst_port': 23, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,782 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40023, 'dst_port': 24, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,783 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40024, 'dst_port': 25, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,784 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.50', 'dst_ip': '10.0.0.5', 'src_port': 40025, 'dst_port': 26, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,784 - network_monitor - ERROR - Parse error at line 34
+2026-04-13 18:43:48,784 - network_monitor - ERROR - Parse error at line 35
+2026-04-13 18:43:48,784 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.99', 'dst_ip': '10.0.0.9', 'src_port': 60000, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,785 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.99', 'dst_ip': '10.0.0.9', 'src_port': 60001, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,785 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.99', 'dst_ip': '10.0.0.9', 'src_port': 60002, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,786 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.99', 'dst_ip': '10.0.0.9', 'src_port': 60003, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,786 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.99', 'dst_ip': '10.0.0.9', 'src_port': 60004, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,787 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.99', 'dst_ip': '10.0.0.9', 'src_port': 60005, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,787 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.99', 'dst_ip': '10.0.0.9', 'src_port': 60006, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,788 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.99', 'dst_ip': '10.0.0.9', 'src_port': 60007, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,788 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.99', 'dst_ip': '10.0.0.9', 'src_port': 60008, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,788 - network_monitor - DEBUG - Parsed packet: {'src_ip': '192.168.1.99', 'dst_ip': '10.0.0.9', 'src_port': 60009, 'dst_port': 80, 'protocol': 'TCP', 'flags': 'SYN'}
+2026-04-13 18:43:48,788 - network_monitor - INFO - Loaded 40 packets
+2026-04-13 18:43:48,789 - network_monitor - WARNING - Port scan detected from 192.168.1.50
+2026-04-13 18:43:48,789 - network_monitor - INFO - Analysis complete
+2026-04-13 18:43:48,792 - network_monitor - INFO - Results written to results.json
