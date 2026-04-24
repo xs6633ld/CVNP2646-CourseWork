@@ -1,0 +1,52 @@
+{
+    "comparison": {
+        "Subscription": {
+            "total_spent": 1300.0,
+            "budget": 8000,
+            "difference": -6700.0
+        },
+        "Cloud Services": {
+            "total_spent": 5755.0,
+            "budget": 10000,
+            "difference": -4245.0
+        },
+        "Equipment Purchase": {
+            "total_spent": 14425.0,
+            "budget": 12000,
+            "difference": 2425.0
+        },
+        "Security": {
+            "total_spent": 3930.0,
+            "budget": 7000,
+            "difference": -3070.0
+        },
+        "Repair": {
+            "total_spent": 250.0,
+            "budget": 4000,
+            "difference": -3750.0
+        },
+        "Networking": {
+            "total_spent": 2585.0,
+            "budget": 8000,
+            "difference": -5415.0
+        },
+        "Licensing": {
+            "total_spent": 2280.0,
+            "budget": 6000,
+            "difference": -3720.0
+        },
+        "Maintenance": {
+            "total_spent": 2310.0,
+            "budget": 5000,
+            "difference": -2690.0
+        }
+    },
+    "alerts": [
+        {
+            "category": "Equipment Purchase",
+            "overspent_by": 2425.0
+        }
+    ],
+    "total_spent": 32835.0,
+    "generated_at": "2026-04-23T19:46:42.902070"
+}
