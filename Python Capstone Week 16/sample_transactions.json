@@ -1,0 +1,24 @@
+{
+  "budgets": {
+    "Subscription": 8000,
+    "Equipment Purchase": 12000,
+    "Repair": 4000,
+    "Cloud Services": 10000,
+    "Security": 7000,
+    "Maintenance": 5000,
+    "Licensing": 6000,
+    "Networking": 8000
+  },
+  "transactions": [
+    {"date": "2026-04-01", "amount": 320, "category": "Subscription", "description": "Software license renewal"},
+    {"date": "2026-04-01", "amount": 1500, "category": "Cloud Services", "description": "Cloud hosting fees"},
+    {"date": "2026-04-02", "amount": 220, "category": "Subscription", "description": "Antivirus subscription"},
+    {"date": "2026-04-02", "amount": 4000, "category": "Equipment Purchase", "description": "Network switches"},
+    {"date": "2026-04-03", "amount": 450, "category": "Cloud Services", "description": "Backup storage"},
+    {"date": "2026-04-03", "amount": 120, "category": "Subscription", "description": "Domain renewal"},
+    {"date": "2026-04-04", "amount": 2080, "category": "Equipment Purchase", "description": "Workstation upgrade"},
+    {"date": "2026-04-04", "amount": 300, "category": "Subscription", "description": "IT training course"},
+    {"date": "2026-04-05", "amount": 75, "category": "Equipment Purchase", "description": "USB drives"},
+    {"date": "2026-04-05", "amount": 600, "category": "Security", "description": "Firewall maintenance"}
+  ]
+  }

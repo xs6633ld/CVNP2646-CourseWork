@@ -1,0 +1,27 @@
+{
+    "comparison": {
+        "Subscription": {
+            "total_spent": 960.0,
+            "budget": 8000,
+            "difference": -7040.0
+        },
+        "Cloud Services": {
+            "total_spent": 1950.0,
+            "budget": 10000,
+            "difference": -8050.0
+        },
+        "Equipment Purchase": {
+            "total_spent": 6155.0,
+            "budget": 12000,
+            "difference": -5845.0
+        },
+        "Security": {
+            "total_spent": 600.0,
+            "budget": 7000,
+            "difference": -6400.0
+        }
+    },
+    "alerts": [],
+    "total_spent": 9665.0,
+    "generated_at": "2026-04-27T13:19:04.360260"
+}
